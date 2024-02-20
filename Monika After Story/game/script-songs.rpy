@@ -2078,6 +2078,31 @@ label mas_song_on_the_front_porch:
     extend 5dkbsu "simply wonderful~"
     return
 
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="mas_song_if_i_can_stop_one_heart_from_breaking",
+            prompt="If I Can Stop One Heart From Breaking",
+            category=[store.mas_songs.TYPE_SHORT],
+            random=True,
+            aff_range=(mas_aff.ENAMORED, None)
+        ),
+        code="SNG"
+    )
+
+label mas_song_if_i_can_stop_one_heart_from_breaking:
+    m 5dkbsd "{i}~Let my heart bravely spread the wings~{/i}"
+    m 5fkbsu "{i}~Soaring past the night, to trace the primal light~{/i}"
+    m 5hubsb "{i}~Let the cloud heal me of the stains~{/i}"
+    m 5dubsu "{i}~Gently wipe the sorrow of my life~{/i}"
+    m 5dkbsb "{i}~I dream~{/i}"
+    m 5dkbstda "..."
+    m 5hkblb "Sorry if I got a bit emotional there, ahaha!"
+    m 5rka "But, can you really blame me?"
+    m 5eka "After all, doing something like that together would be...{w=0.3}{nw}"
+    extend 5dkbsu "simply wonderful~"
+    return
 
 ################################ NON-DB SONGS############################################
 # Below is for songs that are not a part of the actual songs db and don't
