@@ -2100,8 +2100,8 @@ label mas_song_if_i_can_stop_one_heart_from_breaking:
     m 5dkbstda "..."
     m 5hkblb "Sorry if I got a bit emotional there, ahaha!"
     m 5rka "But, can you really blame me?"
-    m 5eka "After all, doing something like that together would be...{w=0.3}{nw}"
-    extend 5dkbsu "simply wonderful~"
+    m 5eka "This song is really...{w=0.3}{nw}"
+    extend 5dkbsu "Wholesome and Heartwarming~"
     return
 
 ################################ NON-DB SONGS############################################
